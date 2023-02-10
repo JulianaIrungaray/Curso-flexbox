@@ -1,0 +1,10 @@
+.headerPrincipal .container{
+    display: flex; /*Elementos al lado del otro*/
+    align-items: center; /*Alineados en el medio verticalmente*/
+    justify-content: space-between; /*Propiedad de flex. Separa los dos elementos de punta a punta*/
+}
+
+.headerPrincipal-nav{
+    display: flex; /*Pone el nav en horizontal*/
+    
+}
