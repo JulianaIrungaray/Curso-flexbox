@@ -1,3 +1,4 @@
+/*Header*/
 .headerPrincipal .container{
     display: flex; /*Elementos al lado del otro*/
     align-items: center; /*Alineados en el medio verticalmente*/
@@ -7,4 +8,61 @@
 .headerPrincipal-nav{
     display: flex; /*Pone el nav en horizontal*/
     
+}
+
+/*Footer*/
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /*Espacio de alrededor de los elementos*/
+    width: 70%; /*Para ponerle espacop entre logo*/
+    margin-right: 5%;
+}
+
+.rodapePrincipal-contatoForm{
+    width: 25%; 
+}
+
+.rodapePrincipal-contatoForm-fieldset{
+    display: flex; /*Ajusta el botón de ENVIAR*/
+}
+
+/*Mapa de cursos*/
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column; /*Elementos uno debajo del otro*/
+    height: 250px; /*Tamaño de columna*/
+    flex-wrap: wrap; /*Quiebra el contenido por cada 250px*/
+}
+
+/*Nuestros cursos*/
+.contenidoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenidoPrincipal-cursos-link{
+    display: flex;
+    width: 23%;
+}
+
+/*Video*/
+.videoSobre .container{
+    display: flex;
+}
+
+/*Responsive*/
+.headerPrincipal .container{
+    flex-direction: column; /*Elementos uno debajo del otro*/
+    align-items: initial; /*Se posicionan al inicio*/
+    text-align: center;
+}
+
+.headerPrincipal-nav{
+    flex-direction: column;
 }
